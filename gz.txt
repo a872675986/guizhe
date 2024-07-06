@@ -1,32 +1,32 @@
 [custom]
 
 ;设置规则标志位
-ruleset=🚀 ipv6,http://dy.nnn.ink:50/ipv6.yaml
-ruleset=📺 Bilibili,http://dy.nnn.ink:50/bilibili.yaml
-ruleset=🎵 Spotify,http://dy.nnn.ink:50/Spotify.yaml
-ruleset=🎯 全球直连,http://dy.nnn.ink:50/qqzl.yaml
-ruleset=🚀 自定义代理,http://dy.nnn.ink:50/zdydl.yaml
-ruleset=🎯 国内自定义,http://dy.nnn.ink:50/gnzdy.yaml
-ruleset=🚁 推特,http://dy.nnn.ink:50/tuite.yaml
-ruleset=🚁 推特,http://dy.nnn.ink:50/xiazai.yaml
-ruleset=🤖 ChatGPT,http://dy.nnn.ink:50/ai.yaml
-ruleset=🎬 youtube,http://dy.nnn.ink:50/youtube.ini
-ruleset=🎥 NETFLIX,http://dy.nnn.ink:50/netflix.yaml
-ruleset=📲 电报信息,http://dy.nnn.ink:50/tg.yaml
-ruleset=🎶 TikTok,http://dy.nnn.ink:50/tiktok.yaml
-ruleset=🎮 游戏平台,http://dy.nnn.ink:50/youxi.yaml
-ruleset=📢 谷歌FCM,http://dy.nnn.ink:50/fcm.yaml
-ruleset=🚀 代理,http://dy.nnn.ink:50/daili.yaml
-ruleset=🌍 国外媒体,http://dy.nnn.ink:50/gwmt.yaml
-ruleset=🍎 苹果服务,http://dy.nnn.ink:50/apple.yaml
-ruleset=Ⓜ️ 微软服务,http://dy.nnn.ink:50/wrfw.yaml
-ruleset=🌏 国内媒体,http://dy.nnn.ink:50/gnmt.yaml
-ruleset=🛑 全球拦截,http://dy.nnn.ink:50/qqlj.yaml
-ruleset=🎯 国内直连,http://dy.nnn.ink:50/gnzl.yaml
+ruleset=🚀 ipv6,https://raw.githubusercontent.com/a872675986/guizhe/main/fenliu/ipv6.yaml
+ruleset=📺 Bilibili,https://raw.githubusercontent.com/a872675986/guizhe/main/fenliu/bilibili.yaml
+ruleset=🎵 Spotify,https://raw.githubusercontent.com/a872675986/guizhe/main/fenliu/Spotify.yaml
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/a872675986/guizhe/main/fenliu/qqzl.yaml
+ruleset=🚀 自定义代理,https://raw.githubusercontent.com/a872675986/guizhe/main/fenliu/zdydl.yaml
+ruleset=🎯 国内自定义,https://raw.githubusercontent.com/a872675986/guizhe/main/fenliu/gnzdy.yaml
+ruleset=🚁 推特,https://raw.githubusercontent.com/a872675986/guizhe/main/fenliu/tuite.yaml
+ruleset=🚁 推特,https://raw.githubusercontent.com/a872675986/guizhe/main/fenliu/xiazai.yaml
+ruleset=🤖 ChatGPT,https://raw.githubusercontent.com/a872675986/guizhe/main/fenliu/ai.yaml
+ruleset=🎬 youtube,https://raw.githubusercontent.com/a872675986/guizhe/main/fenliu/youtube.ini
+ruleset=🎥 NETFLIX,https://raw.githubusercontent.com/a872675986/guizhe/main/fenliu/netflix.yaml
+ruleset=📲 电报信息,https://raw.githubusercontent.com/a872675986/guizhe/main/fenliu/tg.yaml
+ruleset=🎶 TikTok,https://raw.githubusercontent.com/a872675986/guizhe/main/fenliu/tiktok.yaml
+ruleset=🎮 游戏平台,https://raw.githubusercontent.com/a872675986/guizhe/main/fenliu/youxi.yaml
+ruleset=📢 谷歌FCM,https://raw.githubusercontent.com/a872675986/guizhe/main/fenliu/fcm.yaml
+ruleset=🚀 代理,https://raw.githubusercontent.com/a872675986/guizhe/main/fenliu/daili.yaml
+ruleset=🌍 国外媒体,https://raw.githubusercontent.com/a872675986/guizhe/main/fenliu/gwmt.yaml
+ruleset=🍎 苹果服务,https://raw.githubusercontent.com/a872675986/guizhe/main/fenliu/apple.yaml
+ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/a872675986/guizhe/main/fenliu/wrfw.yaml
+ruleset=🌏 国内媒体,https://raw.githubusercontent.com/a872675986/guizhe/main/fenliu/gnmt.yaml
+ruleset=🛑 全球拦截,https://raw.githubusercontent.com/a872675986/guizhe/main/fenliu/qqlj.yaml
+ruleset=🎯 国内直连,https://raw.githubusercontent.com/a872675986/guizhe/main/fenliu/gnzl.yaml
 ruleset=🎯 国内直连,[]GEOIP,CN
 ruleset=🚀 自定义代理,[]GEOIP,!CN
 ruleset=🎯 国内直连,[]GEOIP,LAN
-ruleset=🎯 未匹配,http://dy.nnn.ink:50/weipipei.yaml
+ruleset=🎯 未匹配,https://raw.githubusercontent.com/a872675986/guizhe/main/fenliu/weipipei.yaml
 ruleset=🐟 漏网之鱼,[]FINAL
 
 
@@ -56,4 +56,14 @@ custom_proxy_group=Ⓜ️ 微软服务`select`[]DIRECT`[]REJECT`[]✈️ 手动�
 custom_proxy_group=📺 Bilibili`select`[]DIRECT`[]REJECT`[]✈️ 手动选择`[]🚁 下载专用`[]🛩️ 手动选择备用`select`.*
 custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]REJECT`[]✈️ 手动选择`[]🛩️ 手动选择备用`[]🚁 下载专用
 custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]REJECT`[]✈️ 手动选择`[]🛩️ 手动选择备用`[]🚁 下载专用
+custom_proxy_group=🎯 国内直连`select`[]DIRECT`[]REJECT`[]✈️ 手动选择`[]🛩️ 手动选择备用`[]🚁 下载专用
+custom_proxy_group=🎯 国内自定义`select`[]DIRECT`[]REJECT`[]✈️ 手动选择`[]🛩️ 手动选择备用`[]🚁 下载专用
+custom_proxy_group=🛑 全球拦截`select`[]REJECT`[]DIRECT`[]✈️ 手动选择`[]🛩️ 手动选择备用`[]🚁 下载专用
+custom_proxy_group=🎯 未匹配`select`[]DIRECT`[]REJECT`[]✈️ 手动选择`[]🚁 下载专用`[]🛩️ 手动选择备用`select`.*
+
+
+
+
+
+enable_rule_generator=true
 overwrite_original_rules=true
