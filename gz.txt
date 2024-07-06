@@ -56,14 +56,4 @@ custom_proxy_group=Ⓜ️ 微软服务`select`[]DIRECT`[]REJECT`[]✈️ 手动�
 custom_proxy_group=📺 Bilibili`select`[]DIRECT`[]REJECT`[]✈️ 手动选择`[]🚁 下载专用`[]🛩️ 手动选择备用`select`.*
 custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]REJECT`[]✈️ 手动选择`[]🛩️ 手动选择备用`[]🚁 下载专用
 custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]REJECT`[]✈️ 手动选择`[]🛩️ 手动选择备用`[]🚁 下载专用
-custom_proxy_group=🎯 国内直连`select`[]DIRECT`[]REJECT`[]✈️ 手动选择`[]🛩️ 手动选择备用`[]🚁 下载专用
-custom_proxy_group=🎯 国内自定义`select`[]DIRECT`[]REJECT`[]✈️ 手动选择`[]🛩️ 手动选择备用`[]🚁 下载专用
-custom_proxy_group=🛑 全球拦截`select`[]REJECT`[]DIRECT`[]✈️ 手动选择`[]🛩️ 手动选择备用`[]🚁 下载专用
-custom_proxy_group=🎯 未匹配`select`[]DIRECT`[]REJECT`[]✈️ 手动选择`[]🚁 下载专用`[]🛩️ 手动选择备用`select`.*
-
-
-
-
-
-enable_rule_generator=true
 overwrite_original_rules=true
