@@ -9,3 +9,5 @@ SRC-PORT：源端口匹配
 PROCESS-NAME：源进程名匹配  
 RULE-SET：Rule Provider 规则匹配  
 MATCH：全匹配  
+`filter`^(?!.*(shad|剩余流量|套餐到期|群|推荐))` #排除节点
+custom_proxy_group=👨‍💻 链式中转`relay`select`[]👨‍💻 中转`select`[]👨‍💻 落地 #链式中转
