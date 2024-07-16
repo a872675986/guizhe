@@ -1,0 +1,5 @@
+  - name: 👨‍💻 realy
+   type: relay
+   proxies:
+      - 中转
+      - 落地

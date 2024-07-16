@@ -2,3 +2,5 @@ DOMAIN-SUFFIX,byr.pt
 DOMAIN-SUFFIX,hust.edu.cn
 DOMAIN-SUFFIX,dmhy.org
 DOMAIN-SUFFIX,6.nnn.ink
+DOMAIN-SUFFIX,ipv6.google.com
+IP-CIDR,::/0
