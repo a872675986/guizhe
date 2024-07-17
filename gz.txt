@@ -33,7 +33,7 @@ ruleset=🐟 漏网之鱼,[]FINAL
 
 
 ;设置分组标志位
-custom_proxy_group=✈️ 手动选择`select`filter`^(?!.*(shad|剩余流量|套餐到期|群|推荐))`
+custom_proxy_group=✈️ 手动选择`select`[]🔯 故障转移`[]♻️ 自动选择`filter`^(?!.*(shad|剩余流量|套餐到期|群|推荐))`
 custom_proxy_group=🛩️ 手动选择备用`select`[]🔯 故障转移`[]♻️ 自动选择`select`.*
 custom_proxy_group=📺 视频专用`select`[]✈️ 手动选择`[]👨‍💻 链式中转`[]🔯 故障转移`[]🛩️ 手动选择备用`[]♻️ 自动选择`select`(hk|tw|jp|kr|pyy|bwg|dmit|gsy|sg|ak us|cc|bv|wawo).*
 custom_proxy_group=🎬 youtube上传`select`[]📺 视频专用`[]👨‍💻 链式中转`[]✈️ 手动选择`[]🛩️ 手动选择备用`[]🚁 下载专用`select`(hk|jp|kr|sg|tw).*
