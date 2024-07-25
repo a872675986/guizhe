@@ -1,0 +1,31 @@
+mode: rule
+log-level: info
+dns:
+  enable: true
+  ipv6: false
+#   启动服务器，用于解析提供的 nameserver，只能用 IP
+#   default-nameserver: 
+#     - 223.5.5.5
+#     - 119.29.29.29
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  nameserver:
+     - 119.29.29.29
+     - 114.114.114.114
+  fallback:
+    - "https://1.1.1.1/dns-query"
+    - "https://dns.cloudflare.com/dns-query"
+    - "https://dns.alidns.com/dns-query"
+    
+#   853 默认被禁
+#     - "tls://8.8.4.4:853"
+#     - tls://dns.mingming.dev:853
+
+#   满足下列条件时，使用 Fallback 服务器
+#   fallback-filter: 
+#     geoip: true    # 如果来自中国则使用，此处关闭
+#     geoip-code: US
+#     ipcidr: 
+#       - 240.0.0.0/4 # 如果返回的范围是 240.0.0.0 ~ 240.255.255.255 则使用
+#       - 0.0.0.0/32  # 如果返回的 0.0.0.0 则使用
